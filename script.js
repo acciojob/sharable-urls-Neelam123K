@@ -1,11 +1,12 @@
 // your code here
 
- const nameInput = document.getElementById("name");
-    const yearInput = document.getElementById("year");
-    const button = document.getElementById("button");
-    const urlDisplay = document.getElementById("url");
+const nameInput = document.getElementById("name");
+const yearInput = document.getElementById("year");
+const button = document.getElementById("button");
+const urlDisplay = document.getElementById("url");
 
-    button.addEventListener("click", () => {
+ button.addEventListener("click", () => {
+	 
       const name = nameInput.value.trim();
       const year = yearInput.value.trim();
 
